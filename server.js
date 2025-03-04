@@ -27,7 +27,6 @@ app.use('/api/plants', plantRoutes);
 app.use('/api', contactRoutes);
 app.use("/api/jobs", jobRoutes);
 
-
 app.get('/', (req, res) => {
   res.send('Hello from the backend!');
 });
